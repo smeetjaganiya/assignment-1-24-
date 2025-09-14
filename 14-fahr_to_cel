@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+
+{
+    
+    float f;
+    
+    printf("Enter Fahrenheit:");
+    scanf("%f",&f);
+    printf("Celcius=%.2f\n",5/9*(f-32));
+    return 0;
+    
+}
