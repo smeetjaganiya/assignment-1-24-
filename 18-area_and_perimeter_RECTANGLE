@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    
+    float L,B,A,P;
+    
+    printf("Enter length :");
+    scanf("%f",&L);
+    printf("Enter length :");
+    scanf("%f",&B);
+    
+    A=L*B;
+    P=2*(L+B);
+    
+    printf("value of Area is:%.2f \n",A);
+    printf("value of Perimeter is :%.2f",P);
+    return 0;
+    
+    
+}
