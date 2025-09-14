@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+
+{
+    float i;
+    
+    printf("Enter Grams:");
+    scanf("%f",&i);
+    printf("KiloGrams=%.2f\n",i/1000);
+return 0;
+}
