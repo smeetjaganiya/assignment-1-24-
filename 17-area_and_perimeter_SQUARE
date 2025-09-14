@@ -13,7 +13,6 @@ int main()
     
     printf("value of Area is:%.2f \n",A);
     printf("value of Perimeter is :%.2f",P);
-    
-return 0;
+    return 0;
     
 }
