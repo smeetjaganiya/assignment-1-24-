@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c;
+    
+    printf("Enter a: ");
+    scanf("%f",&a);
+    
+    printf("Enter b: ");
+    scanf("%f",&b);
+    
+    a==b;
+    b==a;
+    
+    printf("values after swap\n");
+    printf("a=%.0f \n" , b);
+    printf("b=%.0f \n" , a);
+    
+    return 0;
+}
